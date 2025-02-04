@@ -12,7 +12,7 @@ COPY index.html .
 COPY index.jpg .
 
 # Expose the default Nginx port
-EXPOSE 81
+EXPOSE 80
 
 # Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
